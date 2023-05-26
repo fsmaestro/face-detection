@@ -13,14 +13,6 @@
                Width="Auto"
                Height="Auto"
                Margin="0,20,0,50" />
-        <Label x:Name="lblFaceName"             
-               HorizontalAlignment="Stretch"
-               Width="Auto"
-               Margin="0,414,0,0" 
-               HorizontalContentAlignment="Center"
-               Background="#FFF93307"
-               VerticalAlignment="Bottom" 
-               Height="45" FontSize="22" Foreground="White"/>
         <Image x:Name="imgDetectFace" 
                HorizontalAlignment="Right" 
                Height="150" 
@@ -34,7 +26,7 @@
               Width="Auto" 
               Background="{x:Null}" >
             <MenuItem Cursor="Hand" Header="About" Click="AboutButton_Click" />
-            <MenuItem Cursor="Hand" Header="Open Image File" Click="OpenVideoFile_Click"/>
+            <MenuItem Cursor="Hand" Header="Open Image File" Click="OpenImageFile_Click"/>
         </Menu>
 
     </Grid>
