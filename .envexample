@@ -1,0 +1,2 @@
+git checkout -b dev
+git push -u origin devNEW_ENV_VARIABLE='value_1'
